@@ -6,7 +6,7 @@ This is  a python script that subscribes to MQTT and controls a Philipps Hue Bri
 
 Assuming you're on a raspberry pi running the latest (as of this time) raspbian distribution (Debian 9.4):
 ```sh
-sudo mkdir /etc/mqtt_hue_controller # SIC
+sudo mkdir /etc/mqtt_hue_controller
 sudo cp config.ini /etc/mqtt_hue_controller/
 sudo vim /etc/mqtt_hue_controller/config.ini # adjust to your needs
 sudo cp mqtt-hue-controller.py /usr/local/bin/mqtt_hue_controller
